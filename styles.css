@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url("Assignment 5 Starter Files/assets/pattern.webp");
+    background-repeat: repeat;
+}   

@@ -17,15 +17,14 @@ header {
   margin-bottom: 30px;
 }
 h1 {
-  color: white;
-  background-color: #457b9d;
+  color: #023047;
   display: inline-block;
   width: 25%;
   text-align: center;
 }
 nav {
   display: inline-block;
-  width: 60%;
+  width: 70%;
   text-align: right;
 }
 nav a {
@@ -40,42 +39,52 @@ nav a {
 }
 h2,
 h3 {
+  color: #023047;
   border-bottom: 1px solid #023047;
   margin-bottom: 25px;
 }
-
-aside {
-  background-color: white;
-  float: right;
-  padding: 20px;
-  margin: 0 auto;
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-aside a img {
-  width: 50px;
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 40px 0;
+    float: left;
+    width: 60%;
 }
- .container-main-content {
+main p {
+  color: #457b9d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:20px 0;
+  line-height: 20px;
+}
+.container-main-content, .container-aside {
   width: 70%;
   margin: auto;
-} 
-main {
-  padding: 20px;
-  background-color: white;
-  width: 60%;
-  margin: 0 auto;
-  float: left;
 }
 
-main p {
-  font-family: Arial, Helvetica, sans-serif;
+aside{
+    background-color: white;
+    padding: 20px;
+    float:right;
+    margin: 40px 0;
 }
+
+aside a img{
+    width:50px;
+}
+
+
 footer {
   border-top: 2px solid #219ebc;
+  background-color: #8ecae6;
+  color: white;
+  text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8ecae6;
-  color: white;
-  text-align: center;
 }

@@ -1,9 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-body{
-    background-image: url("Assignment 5 Starter Files/assets/pattern.webp");
-    background-repeat: repeat;
-}   
+body {
+  background-image: url("Assignment 5 Starter Files/assets/pattern.webp");
+  background-repeat: repeat;
+}
+.profile-pic {
+  float: left;
+  padding: 10px;
+  width: 100px;
+}
+header {
+  border-bottom: 1px solid #023047;
+  margin-bottom: 30px;
+}
+h1 {
+  color: white;
+  background-color: #457b9d;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+nav {
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+}
+nav a {
+  color: #457b9d;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.about,
+.portfolio {
+  border-right: 1px solid #457b9d;
+  padding-right: 30px;
+}
+h2,
+h3 {
+  border-bottom: 1px solid #023047;
+  margin-bottom: 25px;
+}
+
+aside {
+  background-color: white;
+  float: right;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+aside a img {
+  width: 50px;
+}
+ .container-main-content {
+  width: 70%;
+  margin: auto;
+} 
+main {
+  padding: 20px;
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  float: left;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  border-top: 2px solid #219ebc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8ecae6;
+  color: white;
+  text-align: center;
+}
